@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup - Munchies</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar flex container">
+      <a href="index.html" class="logo">
+        <img src="images/logo2.jpeg" alt="Munchies Logo" style="height: 40px;">
+      </a>
+
+      <ul class="navlist flex">
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="shop.html" class="link">Shop</a></li>
+        <li><a href="contact.html" class="link">Contact</a></li>
+        <li><a href="signup.html" class="link link-active">Signup</a></li>
+        <li><a href="cart.html" class="link">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-hero">
+      <div class="form-container">
+        <h2>Create Your Account</h2>
+        <form action="#" method="post" class="form">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+          <button type="submit" class="btn">Sign Up</button>
+        </form>
+        <p class="form-link">Already have an account? <a href="login.html">Login here</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
